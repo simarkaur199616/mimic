@@ -1,0 +1,61 @@
+.text {
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.controls {
+  margin-bottom: 10px;
+}
+
+.translations div {
+  margin-bottom: 5px;
+}
+
+.button {
+  margin-right: 10px;
+}
+.text {
+  margin-bottom: 20px;
+}
+
+.controls {
+  margin-bottom: 10px;
+}
+
+.selectedWord {
+  background-color: #ffff00; /* Yellow background for selected words */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Home component specific styles */
+.container {
+  display: flexbox;
+  border: 2px solid #000000;
+  padding: 0 2rem;
+
+}
+
+/* Common styles shared across components */
+.text {
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.controls {
+  margin-bottom: 10px;
+}
+
+.translations div {
+  margin-bottom: 5px;
+  display: flexbox;
+  border: 2px solid #000000;
+}
+
+.button {
+  margin-right: 10px;
+}
+
+.selectedWord {
+  background-color: #ffff00;
+  cursor: pointer;
+}
